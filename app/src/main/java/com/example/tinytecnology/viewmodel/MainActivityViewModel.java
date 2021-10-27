@@ -1,7 +1,6 @@
 package com.example.tinytecnology.viewmodel;
 
 import android.app.Application;
-import android.content.Context;
 
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
@@ -9,7 +8,6 @@ import androidx.lifecycle.MutableLiveData;
 
 import com.example.tinytecnology.database.AppDatabase;
 import com.example.tinytecnology.model.Proyecto;
-import com.example.tinytecnology.repository.ProyectoRepository;
 
 import java.util.List;
 
